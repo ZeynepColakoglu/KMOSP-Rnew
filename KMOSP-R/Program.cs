@@ -18,7 +18,7 @@
             Console.Write("3.Telefon Jokerinizi Giriniz: ");
             string telefonJoker3 = Console.ReadLine();
 
-            Console.Clear();
+            
             Console.WriteLine("Hoşgeldiniz " + isim + " " + soyisim);
 
             Console.Write("Kuralları Biliyor Musunuz? : ");
@@ -27,6 +27,7 @@
             if (kuralCevap != 'E')
             {
                 // TODO: Kurallar eklenecek.
+                
                 Console.WriteLine("Kurallar: asdfasdaads");
             }
 
@@ -106,7 +107,7 @@
                 }
                 else if (jokerCevap == 2 && yuzdeHak)
                 {
-                    // TODO: Bu kısım sorudan bağımsız kullanılabilmeli.
+                    // TODO: Bu kısım sorudan bağımsız kullanılabilmeli.nasıl kullanılacak açıkla
                     gizleB = true;
                     gizleC = true;
 

@@ -11,6 +11,13 @@
             Console.Write("Soyisim Giriniz: ");
             string soyisim = Console.ReadLine();
 
+            Console.Write("\n1.Telefon Jokerinizi Giriniz: ");
+            string telefonJoker1 = Console.ReadLine();
+            Console.Write("2.Telefon Jokerinizi Giriniz: ");
+            string telefonJoker2 = Console.ReadLine();
+            Console.Write("3.Telefon Jokerinizi Giriniz: ");
+            string telefonJoker3 = Console.ReadLine();
+
             Console.Clear();
             Console.WriteLine("Hoşgeldiniz " + isim + " " + soyisim);
 
@@ -32,6 +39,8 @@
                 Console.WriteLine("Hazır olduğunuzda Enter'a Basın");
                 Console.ReadLine();
             }
+
+
         }
     }
 }

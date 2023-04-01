@@ -10,6 +10,9 @@
             string isim = Console.ReadLine();
             Console.Write("Soyisim Giriniz: ");
             string soyisim = Console.ReadLine();
+
+            Console.Clear();
+            Console.WriteLine("Hoşgeldiniz " + isim + " " + soyisim);
         }
     }
 }
